@@ -1,0 +1,114 @@
+<html>
+    <head><title>intern2</title></head>
+    <style>
+        body{
+            background-image: url("back1.jpg");
+            background-size: 100% 100%;
+            background-repeat:no-repeat;
+        }
+        header{
+            background-image: linear-gradient(120deg,#425F57,#749F82,#B7B78A,#DDDDDD);
+            text-align: center;
+            left: 0px;
+            top:0px;
+            font-size: 44px;
+            box-shadow: 10px  10px 10px black;
+            
+        }
+        footer{
+            background-image: linear-gradient(120deg,#425F57,#749F82,#B7B78A,#DDDDDD);
+            text-align: center;
+            left: 0px;
+            bottom:0px;
+            font-size: 44px;
+            box-shadow: 8px  8px 8px black;
+            position: fixed;
+            width: 100%;
+        }
+        #a{grid-template: a1;}
+        #b{grid-template: b1;}
+        
+        #main{
+            padding: 10px;
+            display: grid;
+            grid-template-areas: 'a1 b1';
+                                    
+            text-align: center;
+             
+        }
+        #a{
+            padding: 120px;
+            
+        }
+        .mypara{
+      padding-top: 50px;
+      font-size: 150%;
+      font-weight:200;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    font-size:100%;
+    color:black;
+    
+}
+button{
+    border-radius:10px;
+    width:8%;
+    height:3%;
+    background-color:#749F82;
+    margin-left:50px;
+    
+    
+}
+#myForm{
+    /* width:100%;
+    height:50%; */
+    padding-top:8%;
+    color:white;
+    font-size:150%;
+    font-weight:125;
+}
+#myForm input{
+    border-radius: 10px;
+}
+
+    </style>
+    <body>
+      <header>  HISTORICAL PLACES OF INDIA </header>
+      <div class="mypara">
+        <p> From here you can have a glance at all the locations you would like to cover when you are travelling in that city. We will give a brief history of that tourist attraction, how to get there, and also any other details that you might need before arriving at the place.</p>
+        </div>
+        <center>
+        <form id="myForm" action="message1.html" method="post" onSubmit="return validateform();">
+ 
+            <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name=""> </br> </br>
+            </div>
+             
+            <div class="row">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name=""> </br> </br>
+            </div>
+             
+            <div class="row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="">
+            </div>
+             
+            <br>
+             
+            <button> <a href="exp11.html"> Explore..... </a></p></button>
+             
+            </form>
+        </center>
+<center>
+<p>
+   
+    </center>
+      <footer> DESIGNED AND DEVELOPED - MR.ARUN.R.S</footer>
+       
+    </body>
+</html>
